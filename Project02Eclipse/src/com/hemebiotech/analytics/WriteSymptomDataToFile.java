@@ -9,14 +9,12 @@ public class WriteSymptomDataToFile implements ISymptomWriter {
     public void writeSymptoms(Map<String, Integer> symptoms) {
         try (final FileWriter writer = new FileWriter("result.out")) {
             for (Map.Entry<String, Integer> entry : symptoms.entrySet()) {
-                writer.write(entry.getKey() + ":" + entry.getValue() + "\n" );
+                writer.write(entry.getKey() + ": " + entry.getValue() + "\n");
             }
 
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
 
     }
 }
