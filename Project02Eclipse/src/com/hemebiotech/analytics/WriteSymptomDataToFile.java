@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class WriteSymptomDataToFile implements ISymptomWriter {
 
-    private String fileName;
+    private final String fileName;
 
     public WriteSymptomDataToFile(String fileName) {
         this.fileName = fileName;

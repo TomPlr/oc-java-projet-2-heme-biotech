@@ -11,6 +11,13 @@ public class AnalyticsCounter {
 	private final ISymptomReader reader;
 	private final ISymptomWriter writer;
 
+
+	/**
+	 * Public constructor of AnalyticsCounter
+	 *
+	 * @param reader ISymptomReader
+	 * @param writer ISymptomWriter
+	 */
 	public AnalyticsCounter(ISymptomReader reader, ISymptomWriter writer) {
 		this.reader = reader;
 		this.writer = writer;

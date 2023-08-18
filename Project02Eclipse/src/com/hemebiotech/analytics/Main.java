@@ -4,7 +4,10 @@ import java.util.List;
 import java.util.Map;
 
 public class Main {
-
+    /**
+     * Main entry of the app
+     * @param args String[]
+     */
     public static void main(String[] args)  {
 
         ISymptomReader reader = new ReadSymptomDataFromFile("symptoms.txt");

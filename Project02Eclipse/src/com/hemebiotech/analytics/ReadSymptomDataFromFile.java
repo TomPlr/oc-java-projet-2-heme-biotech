@@ -14,7 +14,6 @@ import java.util.Map;
 public class ReadSymptomDataFromFile implements ISymptomReader {
 
 	private final String filepath;
-	
 	/**
 	 * 
 	 * @param filepath a full or partial path to file with symptom strings in it, one per line
