@@ -41,7 +41,6 @@ public class ReadSymptomDataFromFile implements ISymptomReader {
 				e.printStackTrace();
 			}
 		}
-		System.out.println(result);
 		return result;
 	}
 }
